@@ -1,0 +1,7 @@
+---
+- name: Play for PR
+  hosts: localhost
+  tasks:
+    - name: Welcome Message
+      debug:
+        msg: "PR is merged"

@@ -1,0 +1,13 @@
+# defaults file for roles/apache
+apache_packages:
+  - httpd
+  - php
+  - php-mysqlnd
+
+apache_services:
+  - httpd
+
+mysql_info:
+  user: devops
+  database: userdb
+  password: redhat

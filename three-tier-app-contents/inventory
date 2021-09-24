@@ -1,0 +1,13 @@
+[loadbalancer]
+frontend.example.com
+
+[backends]
+app1.example.com
+app2.example.com
+
+[db_server]
+appdb.example.com
+
+[all:vars]
+ansible_user=cloud-user
+ansible_ssh_private_key_file=~/.ssh/d2eakey.pem

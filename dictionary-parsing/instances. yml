@@ -1,0 +1,30 @@
+---
+instances:
+-   CPU: 2
+    Memory: 10240
+    Metadata:
+        AnsibleGroup: bastions,controls
+        Project: ansible-advanced-v2-d2ea
+        env_type: ansible-advanced-v2
+        guid: d2ea
+        instance_filter: ansible-advanced-v2-cleitonm@synnex.com
+        ostype: linux
+        owner: cleitonm@synnex.com
+    Name: control
+    Private_ip: 192.168.50.233
+    Public_IP: 150.239.20.133
+    State: active
+-   CPU: 4
+    Memory: 32768
+    Metadata:
+        AnsibleGroup: satellites
+        Project: ansible-advanced-v2-d2ea
+        env_type: ansible-advanced-v2
+        guid: d2ea
+        instance_filter: ansible-advanced-v2-cleitonm@synnex.com
+        ostype: linux
+        owner: cleitonm@synnex.com
+    Name: satellite
+    Private_ip: 192.168.50.198
+    Public_IP: 150.239.20.86
+    State: active

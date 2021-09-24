@@ -1,0 +1,21 @@
+---
+instances:
+  - name: server1
+    keypair: d2ea-keypair
+    image: rhel-8.3
+    flavor: GLOBAL-CPU_4_Memory_8192_Disk_30_flavor
+    security_group: d2ea-HostSG
+    internal_network: d2ea-dev-network
+    metadata:
+      AnsibleGroup: osp_instances
+      deployment_name: dev
+
+  - name: server2
+    keypair: d2ea-keypair
+    image: rhel-8.3
+    flavor: GLOBAL-CPU_4_Memory_8192_Disk_30_flavor
+    security_group: d2ea-HostSG
+    internal_network: d2ea-dev-network
+    metadata:
+      AnsibleGroup: osp_instances
+      deployment_name: dev
